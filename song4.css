@@ -1,0 +1,46 @@
+.logo {
+    width: 35%;
+    padding: 10px;
+    border-radius: 20%;
+
+
+}
+
+.container {
+    display: grid;
+    align-items: top left; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+   }
+
+   .text {
+    height: 60%;
+    width: 80%;
+    border-radius: 20%;
+    background: linear-gradient(to bottom right, #bbec07 0%, #ddf071 100%);;
+    padding: 10%;
+     font-size: 35px;
+     text-align: center;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+
+   body {
+    background-image: url(SOLATLUNABACKGROUND.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+   }
+
+   p {
+    background-color: rgba(200, 190, 2, 1);
+    border-radius: 35%;
+    width: 50%;
+ 
+   }
+
+  .image2 {
+    border-radius: 50%;
+    
+  }
